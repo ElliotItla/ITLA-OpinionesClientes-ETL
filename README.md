@@ -31,7 +31,6 @@ src/OpinionesClientes.ETL/
 3. Copiar los CSV del proyecto en `data/csv/` (si los nombres son distintos, cambiarlos en `appsettings.json`).
 4. Abrir `OpinionesClientes.sln` en Visual Studio 2022 y presionar F5
    (o, desde la carpeta `src/OpinionesClientes.ETL`, ejecutar `dotnet run`).
-5. Ejecutar `04_ConsultasValidacion.sql` y tomar las capturas.
 
 Para repetir la carga desde cero, volver a ejecutar los scripts 01, 02 y 03.
 Si se ejecuta el ETL dos veces sin borrar, la segunda vez todos los registros salen como duplicados.
