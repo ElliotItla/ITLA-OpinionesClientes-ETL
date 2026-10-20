@@ -1,0 +1,11 @@
+# Archivos generados al compilar
+bin/
+obj/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Reportes generados por cada ejecución del ETL
+docs/rechazos/*.csv

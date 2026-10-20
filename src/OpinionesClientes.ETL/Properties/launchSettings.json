@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "OpinionesClientes.ETL": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
