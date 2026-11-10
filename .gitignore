@@ -9,3 +9,7 @@ obj/
 
 # Reportes generados por cada ejecución del ETL
 docs/rechazos/*.csv
+
+# Generados por el Worker de extracción (Actividad 1)
+src/OpinionesClientes.Worker/logs/
+data/staging/
